@@ -1,0 +1,213 @@
+/* ===================HERO ======================*/
+
+.container.hero{
+  @media screen and (max-width:767px){
+    padding: 0px 15px;
+}  
+  @media screen and (min-width:768px){
+    display: flex;
+    min-height: 500px;
+    flex-wrap: wrap;
+} 
+         
+//   @media screen and (max-width:767px){
+//     background-color: $primary-fone-color;
+//     width: 100%;
+// } 
+}
+
+.section-black-white{
+    background-image: linear-gradient(
+        to top left,
+        $primary-white-color,
+        $portfolio-text-color
+      ); 
+      background-color: $primary-fone-color;
+
+  color: $primary-white-color;
+  margin: 0px;
+
+
+
+  @media screen and (max-width:767px){
+    min-height: 800px;
+    width: 100vw;
+    background-size: cover;
+    background-image: url('../image/hero_for_mobile.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+} 
+
+@media screen and (min-width:768px){
+  width: 100vw;
+  height: 500px;
+  background-image: url('../image/Герой2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-size: cover;
+} 
+
+@media screen and (min-width:1024px){
+  min-height: 800px;
+} 
+
+}
+
+#bg {
+    height: 0;
+    left: 100%;
+    position: absolute;
+    top: 100%;
+    width: 0;
+    z-index: 5;
+
+}
+  #bg:after,
+  #bg:before {
+    content: "";
+    display: block;
+    height: 50%;
+    left: 0;
+    width: 100%;}
+  #bg:after {
+    background-color: #000;
+    bottom: 0;}
+  #bg:before {
+    background-color: #fff;
+    top: 0;}
+
+.box-hero {
+    display: block;
+    width: 350px;
+    padding-top: 50px;
+    text-align: center;
+
+  @media screen and (min-width:768px){
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 0px;
+} 
+    
+    @media screen and (min-width:1024px){
+      display: flex;
+      flex-wrap: wrap;
+      width: 600px;
+      margin-top: 150px;
+      margin-left: 100px;
+      padding-top: 50px;
+  } 
+
+}
+
+.box-title-hero {
+ 
+    @media screen and (max-width:767px) {
+      max-height: 400px; 
+  } 
+  
+  @media screen and (min-width:768px){
+    max-height: 400px; 
+  } 
+  
+  @media screen and (min-width:1024px){
+    max-height: 500px; 
+  } 
+
+}
+
+
+
+.title-hero {
+    color: $accent-text-color;
+    font-family: "Raleway", sans-serif;
+
+    font-style: normal;
+
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 1.08;
+  
+  @media screen and (min-width:768px){
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.10;
+  } 
+  
+  @media screen and (min-width:1024px){
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.15;
+    text-align: start;
+  } 
+}
+
+.title-text {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    
+    color: $primary-white-color;
+    align-self: center;
+
+
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.08;
+      margin: 12px;
+
+  
+  @media screen and (min-width:768px){
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.10;
+    margin: 12px;
+  } 
+  
+  @media screen and (min-width:1024px){
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.15;
+    width: 280px;
+    margin: 12px;
+    text-align: start;
+  } 
+
+}
+
+.title-flex {
+  @media screen and (min-width:1024px){
+    display: flex;
+  } 
+    
+}
+.under-title {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.53;
+      width: 320px;
+      margin-bottom: 10px;
+      opacity: 0.75;
+    
+  @media screen and (min-width:768px){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.53;
+    width: 400px;
+    margin-bottom: 20px;
+  } 
+  
+  @media screen and (min-width:1024px){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.53;
+    width: 550px;
+    margin-bottom: 40px;
+    text-align: start;
+  } 
+}
+
+/* ===================HERO END======================*/

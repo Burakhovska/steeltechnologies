@@ -1,0 +1,60 @@
+a {
+    text-decoration:none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+ color: $primary-text-color;
+ background-color: $primary-white-color;
+ scroll-behavior: smooth;
+ font-family: "Roboto", sans-serif;
+ font-size: 16px;
+}
+
+img {
+    display: block;
+}
+
+
+
+.title {
+    font-style: normal;
+    text-align: center;
+
+@media screen and (max-width:767px){
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+@media screen and (min-width:768px){
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width:1024px){
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+}

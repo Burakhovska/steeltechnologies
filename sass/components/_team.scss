@@ -1,0 +1,81 @@
+/*================= Наша команда =====================*/
+
+.team-container{
+    @media screen and (max-width:1023px){
+        display: none;
+    }
+}
+.team_card_scene{
+    background-color: #222222;
+    width: 210px;
+    height: 250px;
+    display: inline-block;
+    padding: 5px 5px;
+    perspective: 600px;
+   
+}
+
+.team.card {
+    
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  cursor: pointer;
+
+}
+
+.team_card_scene:hover .team.card{
+    transform: translateX(-100%) rotateY(-180deg);
+}
+
+.team_card_face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #222222;
+}
+
+.team_card_face.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team_card_face.back{
+    transform: rotateY(180deg);
+    
+}
+
+
+.team-ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.team_card_face.back p{
+    font-size: 14px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    text-align: center;
+}
+
+.team_card_face.back p:first-child {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.team.title{
+    @extend %visually-hidden;
+}
+/*================= Наша команда END===================*/

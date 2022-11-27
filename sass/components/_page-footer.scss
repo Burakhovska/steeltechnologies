@@ -1,0 +1,127 @@
+/* ====================футер =========================*/
+
+.section-black.footer{
+    
+    @media screen and (max-width:767px){
+        padding: 15px;
+    }
+    
+    @media screen and (min-width:768px){
+        display: flex;
+        padding: 20px;
+    }
+    
+    @media screen and (min-width:1024px){
+        display: flex;
+        padding: 40px;
+    }
+
+}
+
+.contacts-link{
+    color: $primary-white-color;
+
+    &:hover, 
+    &:focus {
+    color: $accent-text-color;
+}
+}
+
+
+
+.contacts-link-item,
+.contacts-link-type{
+    margin-bottom: 10px;
+}
+
+
+.title-footer{
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.social-network.footer{
+
+    margin: 10px auto;
+}
+
+.modal-form_footer{
+
+    
+    @media screen and (min-width:1024px){
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+}
+
+.form-main-text_footer{
+    margin-bottom: 20px;  
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.modal-form-input-field_footer,
+.user-message_footer{
+background-color: transparent;
+border: none;
+border-bottom: 1px solid rgba(157, 164, 189, 0.4);
+width: 300px;
+margin-bottom: 15px;
+
+&:focus::placeholder,
+&::placeholder{
+    color: #ffffff;
+    outline: none;
+}
+}
+
+
+
+.modal-form-btn_footer{
+    width: 300px;
+}
+
+.left-part_footer{
+    @media screen and (max-width:1023px){
+        display: none;
+    }
+    width: 400px;
+    margin-left: 150px;
+}
+
+.right-part_footer{
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+
+@media screen and (min-width:480px){
+    padding: 10px auto;
+}
+
+@media screen and (min-width:768px){
+    margin: 10px auto;
+}
+
+@media screen and (min-width:1024px){
+    margin-left: 150px;
+}
+}
+
+.contacts-link-set,
+.right-part_footer{
+    @media screen and (max-width:767px){
+        width: 90vw;
+    }
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: stretch;
+}
+
+
+/* ====================футер END=========================*/

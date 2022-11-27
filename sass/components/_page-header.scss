@@ -1,0 +1,196 @@
+/* =============Хедер========================== */
+
+header{
+    position: absolute;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+.section-header{
+    color: $primary-white-color;
+    margin: 0px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+
+.site-nav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    @media screen and (max-width:767px){
+        display: block;
+    }
+
+}
+.link.current{
+    color: $accent-text-color;
+
+    &:hover, 
+    &:focus {
+        color: $primary-white-color;   
+    }
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 100px;
+
+    @media screen and (max-width:767px){
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+}
+
+.link, .logo {
+    color: $primary-white-color;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    margin-right: 50px;
+    &:hover, 
+    &:focus {
+        color: $accent-text-color;   
+        text-decoration: underline;  
+    }
+}
+
+
+.insta,
+.telega,
+.fb {
+    fill: #fff;
+    margin-left: 10px;
+}
+
+
+
+.social-network{
+    display: flex;
+    @media screen and (max-width:767px){
+        align-items: flex-end;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.nav_menu_item{
+    position: relative;
+    
+    @media screen and (max-width:767px){
+        font-size: 20px;
+        margin-bottom: 15px;
+    } 
+}
+
+
+
+
+
+
+.menu_link{
+    font-size: 14px;
+    color: $primary-white-color;
+    &:hover,
+    &:focus {
+        color: $accent-text-color; 
+        text-decoration: underline;          
+    }
+}
+
+.submenu_item{
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    &:not(:last-child){
+        padding-bottom: 10px;
+    }
+    &:first-child{
+        padding-top: 10px;
+    }
+}
+
+
+/* =====================min-width:768px======================== */
+
+@media screen and (min-width:768px){
+    .insta,
+    .telega {
+    margin-left: 15px;
+  }
+
+  .header-portfolio{
+    min-width: 320px;
+    background-color: $primary-fone-color;
+    color: $primary-white-color;
+    margin: 0px;
+    padding: 10px;
+
+    & .insta,
+    & .telega,
+    & .fb {
+        fill: #fff;
+    }
+}
+
+.insta,
+.telega,
+.fb {
+    fill: #000;
+    margin-left: 10px;
+}
+
+
+.submenu{
+    display: none;
+    
+}
+
+.submenu_item{
+    justify-content: center;
+}
+}
+
+/* =====================min-width:1024px======================== */
+
+@media screen and (min-width:1024px){
+
+.submenu{
+    position: absolute;
+    z-index: 1;
+
+    display: none;
+
+    padding: 10px;
+    right: 0px;
+    width: 160px;
+    .nav_menu_item:hover &{
+        background-color: $portfolio-text-color; 
+        display: block;
+        text-decoration: none;
+        text-align: center;
+    }
+}
+
+.submenu_item{
+    padding-left: 5px;
+}
+
+.site-nav{
+    margin-right: 350px;
+}
+
+.logo{
+    margin-right: 200px;   
+}
+
+
+}
+/* ================Хедер END=================== */

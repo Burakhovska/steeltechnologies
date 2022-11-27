@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelTech</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+
+</head>
+<body>
+    <!-- хедер -->
+    <header class="section-header">
+        <nav class="container flex">
+         <button 
+        type="button" 
+        class="menu-button" 
+        aria-expanded="false"
+        aria-controls="menu-container"
+        data-menu-button
+        >
+            <svg 
+            width="30px" 
+            height="30px"
+            aria-label="Перемикач мобільного меню"
+            >
+                <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
+                <use class="icon-cross" href="./image/sprite.svg#X"></use>   
+            </svg>
+        </button> 
+        <div class="menu-container" id="menu-container" data-menu>
+            <a href="./index.html" lang="en" class="logo"> Steel Tech </a> 
+         <ul class="site-nav">
+            <li class="nav_menu_item">
+                <a href="#benefits" class="link">Про нас</a>
+                
+            </li>
+            <li class="nav_menu_item">
+                <a href="./portfolio.html" class="link menu">Портфоліо</a>
+                <ul class="submenu">
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./table.html"> Столи</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./chear.html"> Стільці</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./rack.html">Стелажі</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./light.html">Освітлення</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./kitchen.html">Кухня</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./badroom.html">Спальня та вітальня</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./other.html">Інше</a></li>
+                </ul>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./contacts.html" class="link">Контакти</a>
+            </li>
+         </ul>
+         <div class="mobile-menu_contact">
+            <p class="text_contact_mobile">Зв’яжіться з нами!</p>
+            <span class="contact_mobile">Телефон:</span> 
+                <a class="contact-link_mobile" href="tel:+380962882100" target="_blank"> 
+                +38 (096) 288-21-00</a>
+         </div>
+         <ul class="social-network">
+            <li class="social-network items">
+                <a class="fb" href="https://www.facebook.com/steeltech.designstudio/" target="_blank" aria-label="facebook-link">
+                    <svg class="fb" width="35px" height="35px">
+                   <use href="./image/sprite.svg#facebook"></use>
+                    </svg>     
+                </a>
+            </li>
+            <li class="social-network items">
+                <a class="insta" href="https://www.instagram.com/steeltech.designstudio/" target="_blank" aria-label="instegram-link">
+                    <svg class="insta" width="35px" height="35px">
+                        <use href="./image/sprite.svg#insta_black"></use>
+                         </svg>  
+                </a>
+            </li>
+            <li class="social-network items">
+                <a class="telega" href="https://t.me/Steeltechnologies" target="_blank" aria-label="telegram-link">
+                    <svg class="telega" width="35px" height="35px">
+                        <use href="./image/sprite.svg#telega_black"></use>
+                         </svg>  
+                </a>
+                </li>
+         </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+         <!--hero-->
+         <section class="section-black-white">
+            <div class="container hero">
+                <div class="box-hero">
+                    <div class="box-title-hero">
+                        <h1 class="title-hero">Ексклюзивні <span class="title-flex">меблі 
+                        <span class="title-text">та предмети інтер'єру на замовлення</span></span></h1>                    
+                    </div>
+                    <p class="under-title">Ми постійно вдосконалюємось, стежимо за останніми тенденціями дизайну. Наше головне завдання — створювати комфортні, якісні та екологічно чисті меблі.
+                    </p>
+                    <!--Кнопка "про нас"-->
+                    <a href="#benefits" class="button primary">Детальніше</a>
+
+                    <button type="button" class="button" data-modal-open> Зв'язатись з нами </button>
+                </div>  
+            </div>
+         </section>
+         <!--переваги-->
+         <section class="section-white">
+            <div class="container flex"> 
+               <div class="container-benefits">
+                <h2 class="title-benefits" id="benefits">
+                Створюємо комфортні, якісні та екологічно чисті меблі та вироби з металу</h2>
+                <ul>
+                    <li>
+                        <h3 class="benefits-description-title">Якість</h3>
+                        <p class="benefits-description">Контроль якості на кожному етапі виробництва. Використовуємо виключно високоякісні, екологічні матеріали.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-description-title">Розробка</h3>
+                        <p class="benefits-description">Можемо реалізувати найскладніші ідеї. Замкнутий цикл розробки, від рисунка до фінального виробу.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-description-title">Комфорт</h3>
+                        <p class="benefits-description">Проектуємо меблі для комфортного та стильного життя. Ретельна обробка деталей дозволяє усім виробам виглядати бездоганно.
+                        </p>
+                    </li>            
+                </ul>
+                <button class="button-contact">Зв’язатися з нами &#x2192</button>
+            </div>
+                <img class="img-benefits" src="./image/Table1.png" width="600" alt="стіл1">
+            
+            </div>        
+         </section>
+         <!-- бревно -->
+         <section class="section-white">
+            <div class="container wood"> 
+                <svg class="quotes"  width="30px" heith="30px">
+                    <use href="./image/sprite.svg#quotes-left"></use>
+                </svg>
+
+                <h2 class="title">Виконуємо замовлення за вашими кресленнями, або спроектуємо виріб разом з вами.</h2>
+                <p class="brand-under-title">— Steel Tech</p>
+                <img class="wood_img" src="./image/wood-round-slice-iso.jpg" width="700px" alt="бревно">
+            </div>
+        </section>
+         <!--корпоративні замовлення-->
+         <section class="section-grey">
+            <div class="container flex"> 
+                <img class="img-corporative" src="./image/корп.замовлення1.png" alt="робітник" width="220">
+                <img class="img-corporative" src="./image/корп.замовлення2.png" alt="офіс" width="220">
+                <div class="box-corporative">
+                    <h2 class="title corporative">Копроративні замовлення</h2>
+                    <p class="description corporative">Виробницво Steel Tech дозволяє випускати продукти великим тиражем. Ми пропонуємо масове виробництво, на замовлення, будь-якої складності. Також надаємо послуги: лазерного різання, порошкового фарбування, згинання, перфорації.
+                    </p>
+                    
+                <button type="button" class="button primary corporate_button" data-modal-open>Зв’язатися з нами</button>
+                </div>
+            </div>
+        </section>
+         <!--Наша команда-->
+         <section class="section-black team-container">
+            <div class="container"> 
+            <h2 class="team title">Наша команда</h2>
+            <ul class="team-ul">
+                <li class="team_card_scene">
+                    <div class="team card">
+                        <div class="team_card_face front">
+                            <img src="./image/КагаловскийС.jpg" alt="кагаловский c" width="200">
+                            <h3 class="team-item">Сергій</h3> 
+                        </div> 
+                        <div class="team_card_face back"> 
+                       <p>Засновник. Керівник виробництва.</p> 
+                        </div> 
+                    </div>
+                    
+                </li>
+                <li class="team_card_scene">
+                    <div class="team card">
+                        <div class="team_card_face front">
+                            <img src="./image/КагаловскийЮ.jpg" alt="кагаловский ю" width="200">
+                            <h3>Юрій</h3>
+                        </div>
+                    <div class="team_card_face back">  
+                    <p>Технічний директор.</p>
+                    <p class="team-description">Контролює процес виробництва. Спеціаліст вищої категорії в роботі за металом.</p>
+                    </div>  
+                </div>
+                </li>
+                <li class="team_card_scene">
+                    <div class="team card">
+                        <div class="team_card_face front">
+                    <img src="./image/КоломиецВ.jpg" alt="коломієць" width="200">
+                    <h3 class="team-item">Валерій</h3> 
+                </div>
+                <div class="team_card_face back">
+                    <p>Менеджер з управління проектами.</p>
+                    <p class="team-description">Валерій контролює виконання замовлень. Завдяки цьому ваше замовлення буде виконане вчасно та якісно!</p> 
+                </div>
+            </div>
+            </li>
+            <li class="team_card_scene">
+                <div class="team card">
+                    <div class="team_card_face front">
+                    <img src="./image/СпицинаЕ.jpg" alt="спіцина" width="200">
+                    <h3>Єлизавета</h3> 
+                </div>
+                    <div class="team_card_face back">
+                    <p>Головний дизайнер.</p>
+                    <p class="team-description">Єлизавета орієнтується в тенденціях дизайну та має досвід в розробці предметів інтер'єру. Вона з задоволенням візуалізує вашу ідею враховуючи ергономічність виробу та всі ваші побажання!</p> 
+                    </div>
+                </div>
+                </li>
+                <li class="team_card_scene">
+                    <div class="team card">
+                        <div class="team_card_face front">
+                            <img src="./image/БураховськаК.jpg" alt="бураховська" width="200">
+                            <h3>Катерина</h3> 
+                        </div>
+                    <div class="team_card_face back">
+                    
+                    <p>Менеджер по роботі з клієнтами.</p>
+                     <p class="team-description"> Катерина прийме ваше замовлення та відповість на всі питання по виробництву вашого виробу.</p> 
+                    </div>
+                </div>
+                </li>
+                <li class="team_card_scene">
+                    <div class="team card">
+                        <div class="team_card_face front">
+                            <img src="./image/РевенкоС.png" alt="ревенко" width="200">
+                            <h3>Сергій</h3> 
+                        </div>
+                    <div class="team_card_face back">
+                    <p> Менеджер по роботі з клієнтами.</p>
+                     <p class="team-description">Сергій прийме ваше замовлення та відповість на всі питання по виробництву вашого виробу.</p> 
+                    </div> 
+                </div>
+                </li>
+            </ul>
+        </div>
+         </section>
+    </main>
+         <!-- футер -->
+    <footer class="section-black footer">
+        <div class="container flex">
+        <div class="left-part_footer">
+            <form action="" class="modal-form_footer">
+                <label for="" class="form-main-text_footer">
+                    Зворотній зв'язок</label>
+                <label class="modal-form-field_footer">
+                    <input type="text" name="user-name" class="modal-form-input-field_footer" 
+                    placeholder="Ім'я*">
+                </label>
+                <label class="modal-form-field">
+                    <input type="tel" name="user-phone" class="modal-form-input-field_footer" 
+                    placeholder="Телефон*">
+                </label>                    
+                <label for="" class="modal-form-field_footer">
+                    <textarea class="user-message_footer" name="user-message" 
+                    placeholder="Коментар"></textarea>
+                </label>
+                <button type="submit" class="modal-form-btn_footer">Надіслати</button>
+            </form>
+        </div>
+        
+        <div class="right-part_footer">
+            <ul class="social-network footer">
+                <li class="social-network items">
+                    <a class="fb" href="https://www.facebook.com/steeltech.designstudio/"  target="_blank" aria-label="facebook-link">
+                        <svg class="fb footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#facebook_white"></use>
+                             </svg>
+                    </a>
+                </li>
+                <li class="social-network items">
+                    <a class="insta" href="https://www.instagram.com/steeltech.designstudio/"  target="_blank" aria-label="instegram-link">
+                        <svg class="insta footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#insta_white"></use>
+                             </svg>  
+                    </a>
+                </li>
+                <li class="social-network items">
+                    <a class="telega" href="https://t.me/Steeltechnologies"  target="_blank" aria-label="telegram-link">
+                        <svg class="telega footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#telega_white"></use>
+                             </svg> 
+                    </a>
+                    </li>
+             </ul>
+            
+            <!-- <p class="title-footer">Зв'яжіться з нами</p>
+            <button type="button"  class="button primary footer"  data-modal-open>Замовити зворотній зв'язок</button> -->
+
+            <address>
+                <ul class="contacts-link-set">
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Телефон:</span> <a class="contacts-link" href="tel:+380962882100" target="_blank"> +38 (096) 288-21-00</a>
+                    </li>
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Email:</span> <a class="contacts-link" href="mailto:steeltech.ds@gmail.com" target="_blank"> steeltech.ds@gmail.com</a>
+                    </li>
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Адреса виробництва:<a class="contacts-link" href="https://goo.gl/maps/rK6BqTWxukULVyYCA" target="_blank">  м. Київ, вул. Дубровицька, 28</a></span>
+                    </li>
+                    <li class="contacts-link-item">
+                        <p class="contacts-link-type">Графік роботи</p>
+                        <p class="contacts-link-type">Пн-Пт: 9:00-20:00</p>
+                        <p class="contacts-link-type">Сб-Нд: 10:00-17:00</p>
+                    </li>
+               </ul>
+            </address>
+        </div>    
+            <div class="under_menu">
+                <svg class="connect">
+                    <use class="connect_icon" href="./image/sprite.svg#message"></use>
+                </svg>
+                <ul class="menu_massengers">
+                    <li class="massengers_items">
+                        <a href="tel:+380962882100">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#phone_blue"></use>
+                            </svg>
+                        </a>   
+                    </li>
+                    <li class="massengers_items">
+                        <a href="mailto:steeltech.ds@gmail.com">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#message_blue"></use>
+                            </svg>
+                        </a> 
+                    </li>
+                    <li class="massengers_items">
+                        <a href="https://t.me/Steeltechnologies" target="_blank">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#telega_blue"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="close-btn" data-modal-close> X </button>
+                <form action="" class="modal-form">
+                <label for="" class="form-main-text">
+                    Зворотній зв'язок</label>
+                <label for="" class="form-description-text">
+                    Залиште свої контакті данні і наш менеджер зв'яжеться з вами у найближчий час.</label>
+                <label class="modal-form-field">
+                    Email
+                    <input type="email" name="user-email" class="modal-form-input-field" placeholder="Ваш email">
+                </label>
+                <label class="modal-form-field">
+                    Ім'я
+                    <input type="text" name="user-name" class="modal-form-input-field" placeholder="Ваше Ім'я">
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <input type="tel" name="user-phone" class="modal-form-input-field" placeholder="Ваш телефон">
+                </label>                    
+                <label for="" class="modal-form-field">
+                    Коментар
+                    <textarea class="user-message" name="user-message" placeholder="Опишіть коротко своє замовлення, або ваше питання"></textarea>
+                </label>
+                <!-- <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy"> -->
+                <button type="submit" class="modal-form-btn">Надіслати</button>
+                <label for="" class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
+            </form>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
+        <script src="./js/menu.js"></script>
+        <script>
+            (() => {
+              document
+                .querySelector('.js-speaker-form')
+                .addEventListener('submit', e => {
+                  e.preventDefault();
+      
+                  new FormData(e.currentTarget).forEach((value, name) =>
+                    console.log(`${name}: ${value}`),
+                  );
+      
+                  e.currentTarget.reset();
+                });
+            })();
+          </script>
+</body>
+</html>
