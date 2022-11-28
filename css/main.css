@@ -907,10 +907,12 @@ header {
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .title.corporative {
-    text-align: center;
-  }
+.bold_font {
+  font-weight: bold;
+}
+
+.title.corporative {
+  text-align: center;
 }
 @media screen and (min-width: 1024px) {
   .title.corporative {
@@ -919,10 +921,8 @@ header {
   }
 }
 
-@media screen and (max-width: 1023px) {
-  .box-corporative {
-    padding: 10px;
-  }
+.box-corporative {
+  padding: 10px;
 }
 @media screen and (min-width: 1024px) {
   .box-corporative {
@@ -930,12 +930,10 @@ header {
   }
 }
 
-@media screen and (max-width: 767px) {
-  .img-corporative {
-    width: 40vw;
-    height: auto;
-    margin: 5px;
-  }
+.img-corporative {
+  width: 40vw;
+  height: auto;
+  margin: 5px;
 }
 @media screen and (min-width: 768px) {
   .img-corporative {
