@@ -195,7 +195,7 @@ header {
   color: #ffffff;
   margin: 0px;
   padding-bottom: 15px;
-  padding-top: 5px;
+  padding-top: 10px;
 }
 
 .site-nav {
@@ -728,7 +728,7 @@ header {
 @media screen and (min-width: 768px) {
   .title-hero {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 42px;
     line-height: 1.1;
   }
 }
@@ -949,9 +949,6 @@ header {
 
 /* ===========Корпоративні замовлення END================*/
 /*================= Наша команда =====================*/
-.team-container {
-  min-height: 600px;
-}
 @media screen and (max-width: 767px) {
   .team-container {
     display: none;
