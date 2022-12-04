@@ -28,13 +28,13 @@
   transform-origin: center right;
   cursor: pointer;
   perspective: 600px;
-
-
-}
-
-.team_card_scene:hover .team.card{
+  .team_card_scene:hover &{
     transform: translateX(-100%) rotateY(-180deg);
 }
+
+}
+
+
 
 .team_card_face{
     position: absolute;

@@ -1,0 +1,42 @@
+.reviews_box{
+    display: block;
+    background-color: $primary-white-color;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 560px;
+}
+
+.reviews_set{
+    margin-top: 20px;
+    @media screen and (min-width: 767px) {
+        display: flex;
+    }
+}
+
+.card_client_reviews{
+    display: flex;
+
+}
+
+.reviews_item{
+    margin: 10px;
+}
+
+.part_reviews_box{
+    display: block;
+    margin-left: 35px;
+border: 20px solid transparent; 
+border-left: 20px solid $primary-white-color; 
+border-top: 20px solid $primary-white-color;
+width: 0;
+height: 0;
+}
+
+.photo_client{
+    border-radius: 50%;
+}
+
+.description_rewievs{
+    margin-left: 15px;
+}

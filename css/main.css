@@ -102,6 +102,7 @@ img {
 .section-grey {
   background-color: #f5f5f5;
   margin: 0px;
+  padding: 15px 0px;
 }
 @media screen and (min-width: 480px) {
   .section-grey {
@@ -894,6 +895,13 @@ header {
 
 /* ==================Переваги END=================== */
 /* ===========Корпоративні замовлення ================*/
+@media screen and (max-width: 767px) {
+  .corporative-section {
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+}
+
 .description.corporative {
   font-weight: 400;
   width: 100%;
@@ -985,7 +993,6 @@ header {
   -webkit-perspective: 600px;
           perspective: 600px;
 }
-
 .team_card_scene:hover .team.card {
   -webkit-transform: translateX(-100%) rotateY(-180deg);
           transform: translateX(-100%) rotateY(-180deg);
@@ -1579,4 +1586,52 @@ textarea {
 .column {
   float: left;
   width: 16.66%;
+}
+
+.reviews_box {
+  display: block;
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 300;
+  max-width: 560px;
+}
+
+.reviews_set {
+  margin-top: 20px;
+}
+@media screen and (min-width: 767px) {
+  .reviews_set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.card_client_reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews_item {
+  margin: 10px;
+}
+
+.part_reviews_box {
+  display: block;
+  margin-left: 35px;
+  border: 20px solid transparent;
+  border-left: 20px solid #ffffff;
+  border-top: 20px solid #ffffff;
+  width: 0;
+  height: 0;
+}
+
+.photo_client {
+  border-radius: 50%;
+}
+
+.description_rewievs {
+  margin-left: 15px;
 }/*# sourceMappingURL=main.css.map */

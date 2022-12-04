@@ -1,6 +1,11 @@
 /* ===========Корпоративні замовлення ================*/
 
-
+.corporative-section{
+    @media screen and (max-width:767px) {
+        background-color: $primary-fone-color;
+        color: $primary-white-color;
+    } 
+}
 
 .description.corporative {
     font-weight: 400;
