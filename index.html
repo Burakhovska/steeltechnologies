@@ -35,7 +35,7 @@
             <a href="./index.html" lang="en" class="logo"> Steel Tech </a> 
          <ul class="site-nav">
             <li class="nav_menu_item">
-                <a href="#benefits" class="link">Про нас</a>
+                <a href="./about-us.html" class="link">Про нас</a>
                 
             </li>
             <li class="nav_menu_item">
@@ -95,7 +95,7 @@
     </header>
     <main>
          <!--hero-->
-         <section class="section-black-white">
+         <section class="section-hero">
             <div class="container hero">
                 <div class="box-hero">
                     <div class="box-title-hero">
@@ -134,7 +134,7 @@
                         </p>
                     </li>            
                 </ul>
-                <button class="button-contact">Зв’язатися з нами &#x2192</button>
+                <button class="button-contact">Зв’язатися з нами &#x2192; </button>
             </div>
                 <img class="img-benefits" src="./image/Table1.png" width="600" alt="стіл1">
             
@@ -143,13 +143,13 @@
          <!-- бревно -->
          <section class="section-white">
             <div class="container wood"> 
-                <svg class="quotes"  width="30px" heith="30px">
+                <svg class="quotes"  width="30px" height="30px">
                     <use href="./image/sprite.svg#quotes-left"></use>
                 </svg>
 
                 <h2 class="title">Виконуємо замовлення за вашими кресленнями, або спроектуємо виріб разом з вами.</h2>
                 <p class="brand-under-title">— Steel Tech</p>
-                <img class="wood_img" src="./image/wood-round-slice-iso.jpg" width="700px" alt="бревно">
+                <img class="wood_img" src="./image/wood-round-slice-iso.jpg" alt="бревно" width="700">
             </div>
         </section>
          <!--корпоративні замовлення-->
@@ -162,7 +162,8 @@
                     <p class="description corporative">Виробницво <span class="bold_font">Steel Tech</span> дозволяє випускати продукти великим тиражем. Ми пропонуємо масове виробництво, на замовлення, будь-якої складності. Також надаємо послуги: лазерного різання, порошкового фарбування, згинання, перфорації.
                     </p>
                     
-                <button type="button" class="button primary corporate_button" data-modal-open>Зв’язатися з нами</button>
+                <!-- <button type="button" class="button primary corporate_button" data-modal-open>Зв’язатися з нами</button> -->
+                <a href=""class="button primary corporate_button">Детальніше</a>
                 </div>
             </div>
         </section>
@@ -258,7 +259,7 @@
                         </div>
                         <div class="part_reviews_box"></div>
                         <div class="card_client_reviews">
-                        <img class="photo_client" src="./image/Rewievs/people_rewievs1.png" alt="фото клієнта" width="50px" height="50px">
+                        <img class="photo_client" src="./image/Rewievs/people_rewievs1.png" alt="фото клієнта" width="50" height="50">
                         <div class="description_rewievs">
                         <h3 class="people_reviews">Аліна Лагода</h3>
                         <p class="city_reviews">Ужгород</p>
@@ -271,7 +272,7 @@
                         </div>
                         <div class="part_reviews_box"></div>
                         <div class="card_client_reviews">
-                        <img class="photo_client" src="./image/Rewievs/people_rewievs2.png" alt="фото клієнта" width="50px" height="50px">
+                        <img class="photo_client" src="./image/Rewievs/people_rewievs2.png" alt="фото клієнта" width="50" height="50">
                         <div class="description_rewievs">
                         <h3 class="people_reviews">Олексій Зінченко</h3>
                         <p class="city_reviews">Київ</p>
@@ -286,8 +287,8 @@
     <footer class="section-black footer">
         <div class="container flex">
         <div class="left-part_footer">
-            <form action="" class="modal-form_footer">
-                <label for="" class="form-main-text_footer">
+            <form action="/" class="modal-form_footer">
+                <label class="form-main-text_footer">
                     Зворотній зв'язок</label>
                 <label class="modal-form-field_footer">
                     <input type="text" name="user-name" class="modal-form-input-field_footer" 
@@ -297,7 +298,7 @@
                     <input type="tel" name="user-phone" class="modal-form-input-field_footer" 
                     placeholder="Телефон*">
                 </label>                    
-                <label for="" class="modal-form-field_footer">
+                <label class="modal-form-field_footer">
                     <textarea class="user-message_footer" name="user-message" 
                     placeholder="Коментар"></textarea>
                 </label>
@@ -385,10 +386,10 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="close-btn" data-modal-close> X </button>
-                <form action="" class="modal-form">
-                <label for="" class="form-main-text">
+                <form action="/" class="modal-form">
+                <label class="form-main-text">
                     Зворотній зв'язок</label>
-                <label for="" class="form-description-text">
+                <label class="form-description-text">
                     Залиште свої контакті данні і наш менеджер зв'яжеться з вами у найближчий час.</label>
                 <label class="modal-form-field">
                     Email
@@ -402,13 +403,13 @@
                     Телефон
                     <input type="tel" name="user-phone" class="modal-form-input-field" placeholder="Ваш телефон">
                 </label>                    
-                <label for="" class="modal-form-field">
+                <label class="modal-form-field">
                     Коментар
                     <textarea class="user-message" name="user-message" placeholder="Опишіть коротко своє замовлення, або ваше питання"></textarea>
                 </label>
                 <!-- <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy"> -->
                 <button type="submit" class="modal-form-btn">Надіслати</button>
-                <label for="" class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
+                <label class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
             </form>
             </div>
         </div>

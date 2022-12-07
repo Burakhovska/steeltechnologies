@@ -1,0 +1,95 @@
+.section-about{
+        background-color: $primary-grey-color;
+        color: black;
+        margin: 0px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        & .container{
+            background-color: #fff;
+        }
+    
+        // @media screen and (min-width:480px){
+        //     min-width: 480px;
+        // }
+        
+        // @media screen and (min-width:768px){
+        //     min-width: 768px;
+        // }
+        
+        // @media screen and (min-width:1024px){
+        //     width: 100%;
+        // }
+}
+
+.header-about{
+    background-color: $primary-fone-color;
+    padding: 3px;
+}
+
+.title.about_us{
+    color: $primary-white-color;
+    position: absolute;
+    top: 10px;
+    left: 33.33%;
+}
+
+.description_about:first-child{
+    margin-top: 60px;
+}
+
+.fb_white,
+.insta_white,
+.telega_white {
+    fill: $primary-white-color;
+    width: 30px;
+}
+
+.our_works_list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.our_works_item{
+    width: calc(100% - 20px);
+    height: auto;
+    margin: 10px 20px;
+}
+
+.img_our_works{
+    width: 100%;
+    height: auto;
+}
+
+/* =====================min-width:768px======================== */
+@media screen and (min-width:768px){
+    .our_works_item{
+        width:  calc((100% - 60px) / 2);
+        margin: 15px;
+    }
+    .description_about:first-child{
+        margin-top: 90px;
+    }
+
+    .title.about_us{
+        top: 50px;
+        left: 43%;
+        color: $portfolio-text-color;
+    }
+}
+
+/* =====================min-width:1024px======================== */
+
+@media screen and (min-width:1024px){
+    
+.our_works_item{
+    width: calc((100% - 120px) / 3);
+    margin: 20px;
+}
+}
