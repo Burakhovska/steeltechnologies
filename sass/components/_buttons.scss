@@ -47,6 +47,15 @@
     }
 }
 
+.button-detail{
+    display: inline-block;
+    color: $accent-text-color;
+    border: none;
+    background-color: transparent;
+    border-color: transparent;  
+    margin: 30px 70px; 
+}
+
 .button.primary.footer{
     display: inline-block;
     font-size: 16px;

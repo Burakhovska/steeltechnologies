@@ -273,11 +273,17 @@ header {
           justify-content: start;
   padding-left: 20px;
 }
-.submenu_item:not(:last-child) {
-  padding-bottom: 10px;
+@media screen and (max-width: 768px) {
+  .submenu_item:not(:last-child) {
+    padding-bottom: 10px;
+  }
+  .submenu_item:first-child {
+    padding-top: 10px;
+  }
 }
-.submenu_item:first-child {
-  padding-top: 10px;
+
+.current {
+  color: #a77e58;
 }
 
 /* =====================min-width:768px======================== */
@@ -309,6 +315,7 @@ header {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 0;
   }
 }
 /* =====================min-width:1024px======================== */
@@ -317,24 +324,29 @@ header {
     position: absolute;
     z-index: 1;
     display: none;
-    padding: 10px;
     right: 0px;
-    width: 160px;
+    width: 170px;
   }
   .nav_menu_item:hover .submenu {
     background-color: #171717;
+    border: 1px solid #a77e58;
     display: block;
     text-decoration: none;
     text-align: center;
-  }
-  .submenu_item {
-    padding-left: 5px;
   }
   .site-nav {
     margin-right: 350px;
   }
   .logo {
     margin-right: 200px;
+  }
+  .menu_link {
+    padding: 5px;
+  }
+  .menu_link:hover, .menu_link:focus {
+    background-color: #a77e58;
+    color: #ffffff;
+    width: 100%;
   }
 }
 /* ================Хедер END=================== */
@@ -543,6 +555,15 @@ header {
   .button-contact {
     margin: 30px 0px 30px 70px;
   }
+}
+
+.button-detail {
+  display: inline-block;
+  color: #a77e58;
+  border: none;
+  background-color: transparent;
+  border-color: transparent;
+  margin: 30px 70px;
 }
 
 .button.primary.footer {
@@ -1647,7 +1668,7 @@ textarea {
   width: 100%;
   position: absolute;
   top: 10px;
-  left: 50%;
+  left: 40%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
