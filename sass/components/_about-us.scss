@@ -31,13 +31,17 @@
 
 .title.about_us{
     color: $primary-white-color;
+    width: 100%;
     position: absolute;
     top: 10px;
-    left: 33.33%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-.description_about:first-child{
+.box_description_about{
     margin-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .fb_white,
@@ -73,13 +77,13 @@
         width:  calc((100% - 60px) / 2);
         margin: 15px;
     }
-    .description_about:first-child{
-        margin-top: 90px;
+    .box_description_about{
+        margin-top: 120px;
     }
 
     .title.about_us{
         top: 50px;
-        left: 43%;
+        margin: auto;
         color: $portfolio-text-color;
     }
 }
