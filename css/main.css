@@ -1269,8 +1269,14 @@ body {
 
 .under_menu {
   position: fixed;
-  right: 60px;
-  bottom: 60px;
+  right: 30px;
+  bottom: 30px;
+}
+@media screen and (min-width: 1024px) {
+  .under_menu {
+    right: 60px;
+    bottom: 60px;
+  }
 }
 
 .menu_massengers {
@@ -1668,7 +1674,7 @@ textarea {
   width: 100%;
   position: absolute;
   top: 10px;
-  left: 40%;
+  left: 43%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
 }
@@ -1718,9 +1724,9 @@ textarea {
     margin-top: 120px;
   }
   .title.about_us {
-    top: 50px;
-    margin: auto;
     color: #171717;
+    left: 50%;
+    top: 50px;
   }
 }
 /* =====================min-width:1024px======================== */

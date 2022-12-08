@@ -34,7 +34,7 @@
     width: 100%;
     position: absolute;
     top: 10px;
-    left: 40%;
+    left: 43%;
     transform: translate(-50%);
 }
 
@@ -82,9 +82,9 @@
     }
 
     .title.about_us{
-        top: 50px;
-        margin: auto;
         color: $portfolio-text-color;
+        left: 50%;
+        top: 50px;
     }
 }
 
