@@ -10,18 +10,6 @@
         & .container{
             background-color: #fff;
         }
-    
-        // @media screen and (min-width:480px){
-        //     min-width: 480px;
-        // }
-        
-        // @media screen and (min-width:768px){
-        //     min-width: 768px;
-        // }
-        
-        // @media screen and (min-width:1024px){
-        //     width: 100%;
-        // }
 }
 
 .header-about{
@@ -84,7 +72,7 @@
     .title.about_us{
         color: $portfolio-text-color;
         left: 50%;
-        top: 50px;
+        top: 60px;
     }
 }
 
@@ -95,5 +83,13 @@
 .our_works_item{
     width: calc((100% - 120px) / 3);
     margin: 20px;
+}
+.section-about{
+padding-bottom: 15px;
+padding-top: 60px;
+}
+
+.box_description_about{
+    margin-top: 60px;
 }
 }

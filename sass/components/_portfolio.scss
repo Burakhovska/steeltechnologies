@@ -62,8 +62,7 @@ transform: translateX(0);
     font-size: 20px;
 }
 
-.portfolio.card img,
-.mySlides img {
+.portfolio.card img{
     width: calc((100% - 30px));
     margin: 25px 15px 15px;
 }
