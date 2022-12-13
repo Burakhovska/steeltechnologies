@@ -1793,12 +1793,17 @@ textarea {
 
 /* Модальное содержание */
 .modal-content {
-  position: relative;
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  max-width: 1000px;
-  height: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* Кнопка закрытия */
@@ -1823,9 +1828,13 @@ textarea {
   display: none;
 }
 
-.mySlides img {
-  width: auto;
-  height: 80vh;
+.mySlides_text-box {
+  display: block;
+  width: 400px;
+  height: auto;
+  padding: 10px;
+  background-color: #4f4f4f;
+  color: #ffffff;
 }
 
 /* Вперед и назад кнопки */

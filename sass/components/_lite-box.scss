@@ -30,12 +30,15 @@
   
   /* Модальное содержание */
   .modal-content {
-    position: relative;
+    // position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
-    max-width: 1000px;
-    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    justify-content: center;
   }
   
   /* Кнопка закрытия */
@@ -60,9 +63,18 @@
     display: none;
   }
 
-  .mySlides img {
-    width: auto;
-    height: 80vh;
+  .mySlides_img {
+    
+}
+
+.mySlides_text-box{
+    display: block;
+    width: 400px;
+    height: auto;
+    padding: 10px;
+
+    background-color: rgba($color: #4f4f4f, $alpha: 1.0);
+    color: $primary-white-color;
 }
   
   /* Вперед и назад кнопки */
