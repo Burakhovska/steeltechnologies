@@ -504,12 +504,12 @@ header {
 /* ====================футер END=========================*/
 /* ============== button ==================== */
 .button {
+  display: inline-block;
   background-color: #1a1a1a;
   color: #a77e58;
-  border-color: #a77e58;
   display: inline-block;
   text-align: center;
-  border-width: 2px;
+  border: 2px solid #a77e58;
   padding: 21px 34px;
   min-width: 220px;
   margin-right: 30px;
@@ -550,11 +550,7 @@ header {
   border: none;
   background-color: transparent;
   border-color: transparent;
-}
-@media screen and (max-width: 1023px) {
-  .button-contact {
-    margin: 30px 0px 30px 70px;
-  }
+  margin: 30px 0px 30px 70px;
 }
 
 .button-detail {
