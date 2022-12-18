@@ -127,7 +127,7 @@
                 <li class="portfolio card">
                     <a href="./rack.html">
                         <picture class="portfolio_list-picture">
-                            <source srcset="../image/Portfilio/rack.png 1x, ./image/Portfilio/rack@2x.png 2x">
+                            <source srcset="./image/Portfilio/rack.png 1x, ./image/Portfilio/rack@2x.png 2x">
                             <img src="./image/Portfilio/rack.png" alt="стелаж" width="370">
                         </picture> 
                     
@@ -135,7 +135,10 @@
                 </li>
                 <li class="portfolio card">
                     <a href="./light.html">
-                    <img src="./image/Portfilio/светильник3.jpg" alt="освітлення" width="370">
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/lamp7.jpg 1x, ./image/Portfilio/lamp7@2x.jpg 2x">
+                            <img src="./image/Portfilio/lamp7.jpg" alt="Світильник" width="370">
+                        </picture> 
                     <h2 class="portfolio-description">Освітлення</h2></a>
                 </li>
                 <li class="portfolio card">
@@ -150,7 +153,11 @@
                 </li>
                 <li class="portfolio card">
                     <a href="./other.html">
-                    <img src="./image/Portfilio/тумба в ванную2.jpg" alt="інше" width="370">
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/stand_for_washbasin.jpg 1x, ./image/Portfilio/stand_for_washbasin@2x.jpg 2x">
+                            <img src="./image/Portfilio/stand_for_washbasin.jpg" alt="інше" width="370">
+                        </picture> 
+                    
                     <h2 class="portfolio-description">Інше</h2></a>
                 </li>
             </ul>
@@ -259,7 +266,7 @@
             </div>
         </div>  
         </footer>
-        <div class="backdrop is-hidden" data-modal>
+        <!-- <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="close-btn" data-modal-close> X </button>
                 <form action="" class="modal-form">
@@ -283,15 +290,14 @@
                     Коментар
                     <textarea class="user-message" name="user-message" placeholder="Опишіть коротко своє замовлення, або ваше питання"></textarea>
                 </label>
-                <!-- <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy"> -->
                 <button type="submit" class="modal-form-btn">Надіслати</button>
                 <label for="" class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
             </form>
             </div>
-        </div>
+        </div> -->
         <script src="./js/modal.js"></script>
         <script src="./js/menu.js"></script>
-        <script>
+        <!-- <script>
             (() => {
               document
                 .querySelector('.js-speaker-form')
@@ -305,6 +311,6 @@
                   e.currentTarget.reset();
                 });
             })();
-          </script>
+          </script> -->
 </body>
 </html>

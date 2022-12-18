@@ -133,12 +133,10 @@
                             <div class="numbertext">5 / 5</div>
                               <img src="./image/Portfilio/Освітлення/lamp5.jpg">
                           </div>
-                        
-                          <!-- Вперед и назад кнопки -->
+
                           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                        
-                          <!-- Детальніше -->
+
                         <div class="detail-container">
                             <h2 class="portfolio-description">Світильники для ресторану HoReCa</h2>
                             <div class="portfolio_backdrop">
@@ -150,14 +148,22 @@
                 <div class="portfolio_backdrop">
                     <p>Такі прості і в той же час стильні світильники ідеально підійдуть для кав'ярень та ресторанів.</p>
                 </div>
-                <img src="./image/Portfilio/Освітлення/светильник2.jpg" alt="Світильник" width="370">
+                <picture class="portfolio_list-picture">
+                    <source srcset="./image/Portfilio/Освітлення/lamp6.jpg 1x, ./image/Portfilio/Освітлення/lamp6@2x.jpg 2x">
+                    <img src="./image/Portfilio/Освітлення/lamp6.jpg" alt="Світильник" width="370">
+                </picture> 
+                
                 <h2>Світильники для ресторану</h2>
             </li>
             <li class="portfolio card">
                 <div class="portfolio_backdrop">
                     <p>Світодіодне освітлення для великих просторів.</p>
                 </div>
-                <img src="./image/Portfilio/Освітлення/светильник3.jpg" alt="Світильник" width="370">
+                <picture class="portfolio_list-picture">
+                    <source srcset="./image/Portfilio/Освітлення/lamp7.jpg 1x, ./image/Portfilio/Освітлення/lamp7@2x.jpg 2x">
+                    <img src="./image/Portfilio/Освітлення/lamp7.jpg" alt="Світильник" width="370">
+                </picture> 
+                
                 <h2>Світодіодні світильники в вигляді сот</h2>
             </li>
         </ul>
@@ -265,53 +271,8 @@
         </div>
     </div>  
     </footer>
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button type="button" class="close-btn" data-modal-close> X </button>
-            <form action="" class="modal-form">
-            <label for="" class="form-main-text">
-                Зворотній зв'язок</label>
-            <label for="" class="form-description-text">
-                Залиште свої контакті данні і наш менеджер зв'яжеться з вами у найближчий час.</label>
-            <label class="modal-form-field">
-                Email
-                <input type="email" name="user-email" class="modal-form-input-field" placeholder="Ваш email">
-            </label>
-            <label class="modal-form-field">
-                Ім'я
-                <input type="text" name="user-name" class="modal-form-input-field" placeholder="Ваше Ім'я">
-            </label>
-            <label class="modal-form-field">
-                Телефон
-                <input type="tel" name="user-phone" class="modal-form-input-field" placeholder="Ваш телефон">
-            </label>                    
-            <label for="" class="modal-form-field">
-                Коментар
-                <textarea class="user-message" name="user-message" placeholder="Опишіть коротко своє замовлення, або ваше питання"></textarea>
-            </label>
-            <!-- <input type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy"> -->
-            <button type="submit" class="modal-form-btn">Надіслати</button>
-            <label for="" class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
-        </form>
-        </div>
-    </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
     <script src="./js/gallery.js"></script>
-    <script>
-        (() => {
-          document
-            .querySelector('.js-speaker-form')
-            .addEventListener('submit', e => {
-              e.preventDefault();
-  
-              new FormData(e.currentTarget).forEach((value, name) =>
-                console.log(`${name}: ${value}`),
-              );
-  
-              e.currentTarget.reset();
-            });
-        })();
-      </script>
 </body>
 </html>
