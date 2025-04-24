@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SteelTech</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="icon" href="./image/logo-squere_forGOOGLE.jpg">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <style>p {text-indent: 20px}</style>
+</head>
+<body>
+    <header class="header-about">
+        <nav class="container flex">
+            <a href="./index.html">
+                <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo_fixed" width="110px">
+            </a>
+             <button 
+            type="button" 
+            class="menu-button" 
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+            >
+                <svg 
+                width="30px" 
+                height="30px"
+                aria-label="Перемикач мобільного меню"
+                >
+                    <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
+                    <use class="icon-cross" href="./image/sprite.svg#X"></use>   
+                </svg>
+            </button> 
+            <div class="menu-container" id="menu-container" data-menu>
+                    <a href="./index.html">
+                    <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo" width="155px">
+                </a>
+            <ul  class="site-nav">
+               <li class="nav_menu_item">
+                   <a href="./portfolio.html" class="link menu">Портфоліо</a>
+                   <ul class="submenu">
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./table.html"> Столи</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./chairs.html"> Стільці</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./rack.html">Стелажі та шафи</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./light.html">Освітлення</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./mirrors.html">Дзеркала</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./awnings.html">Навіси, поручні</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./kitchen.html">Кухня</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./badroom.html">Спальня та вітальня</a></li>
+                       <li class="submenu_item">
+                           <a class="menu_link" href="./other.html">Інше</a></li>
+                   </ul>
+               </li>
+               <li class="nav_menu_item">
+                <a href="./services.html" class="link">Послуги</a>
+                <ul class="submenu">
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_lazer.html">Лазерне різання</a>
+                    </li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_metal-bending.html">Гнуття металу</a>
+                    </li>
+                </ul>
+               </li>
+            <li class="nav_menu_item">
+                <a class="link current" href="./articles.html">Статті</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./contacts.html" class="link">Контакти</a>
+                <ul class="submenu">
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./about-us.html">Про нас</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./contacts.html">Контакти</a>
+                 </li>
+             </ul>
+            </li>
+            </ul>
+            <div class="mobile-menu_contact">
+               <p class="text_contact_mobile">Зв’яжіться з нами!</p>
+               <span class="contact_mobile">Телефон:</span> 
+                   <a class="contact-link_mobile" href="tel:+380962882100" target="_blank"> 
+                   +38 (096) 288-21-00</a>
+            </div>
+            <ul class="social-network">
+               <li class="social-network items">
+                   <a class="fb" href="https://www.facebook.com/steeltech.designstudio/" target="_blank" aria-label="facebook-link">
+                       <svg class="fb fb_white" width="35px" height="35px">
+                      <use href="./image/sprite.svg#facebook"></use>
+                       </svg>     
+                   </a>
+               </li>
+               <li class="social-network items">
+                   <a class="insta" href="https://www.instagram.com/steeltech.designstudio/" target="_blank" aria-label="instegram-link">
+                       <svg class="insta insta_white" width="35px" height="35px">
+                           <use href="./image/sprite.svg#insta_black"></use>
+                            </svg>  
+                   </a>
+               </li>
+               <li class="social-network items">
+                   <a class="telega" href="https://t.me/Steeltechnologies" target="_blank" aria-label="telegram-link">
+                       <svg class="telega telega_white" width="35px" height="35px">
+                           <use href="./image/sprite.svg#telega_black"></use>
+                            </svg>  
+                   </a>
+                   </li>
+            </ul>
+           </div>
+           </nav>
+       </header>
+
+    <main>
+        <!-- Про нас_контейнер -->
+        <section class="section-about">
+            <div class="container">
+                    <article class="article_box">
+                        <h1 class="article_title">Металеві навіси</h1>
+                            <p class="article_description">Виготовлення навісу з металу - це складне і багатогранне завдання, так як цей виріб є функціональною господарською спорудою, відрізняється міцністю, практичністю. 
+                                Сам собою навіс візуально легкий, він гармонійно вписується в загальний ландшафтний дизайн ділянки і при цьому не захаращує його унікальний зовнішній вигляд. 
+                                Конструкція даного виробу гранично проста і ґрунтується на вертикальних опорах-стовпах, до яких кріпиться будівельна ферма, укладається решетування та дах. Якщо вам потрібен навіс із металу на замовлення, 
+                                рекомендуємо звернутися за допомогою до нашої компанії. 
+                                 </p>
+                            <h2 class="article_description">Зазвичай металеві навіси роблять через наступні причини: </h2>
+                                <ul class="article_description">
+                                    <li class="benefits-description-title">Він може захистити автомобіль від атмосферних опадів, якщо у вас немає гаражу. 
+                                        Також його можна встановити над дитячим майданчиком, басейном або терасою.</li>
+                                    <li class="benefits-description-title">Металеві навіси більш практичні ніж будівництво цегляного гаража, яке коштуватиме дорожче та займе багато часу, 
+                                        металевий навіс обійдеться в кілька разів дешевше та його можна встановити протягом двох тижнів.</li>
+                                </ul>
+                            <h2 class="article_description">Навіс до будинку найчастіше роблять залізним із дахом із профлиста. Популярність такої конструкції обумовлена такими перевагами:</h2>
+                            <ul class="article_description">
+                                <li class="benefits-description-title">Вона дуже міцна та надійна, здатна витримувати великі снігові навантаження.</li>
+                                <li class="benefits-description-title">Матеріали екологічні, відповідають усім міжнародним нормам.</li>
+                                <li class="benefits-description-title">Конструкції пожежобезпечні.</li>
+                                <li class="benefits-description-title">Будівництво завдяки простій конструкції виконується швидко і дешево в порівнянні з іншими варіантами матеріалів.</li>
+                                <li class="benefits-description-title">Такий навіс не лише захищає від опадів, а й має привабливий зовнішній вигляд. 
+                                    Він може бути прямий, вигнутий, напівкруглий, напіварковий або прозорий із пластиковим дахом. 
+                                    Це може бути сучасна споруда в стилі хай-тек, купольна конструкція, круглий намет або звичайний консольний козирок над входом. 
+                                    Тобто такий навіс не тільки функціональний, а ще виконує декоративну функцію.</li>
+                                <li class="benefits-description-title">Матеріали стійкі до атмосферних впливів – опадів, ультрафіолету, перепаду температур. Вони довговічні – здатні служити десятки років.</li>
+                            </ul>
+                                <p class="article_description">Враховуючи всі вищевказані переваги, можна зробити висновок, що саме металевий навіс буде більш практичний, за доступні кошти.
+                                    Його можна зробити практично будь-якої форми, тобто він може не тільки практичний, а ще й стильний.
+                                </p>
+                            <p class="article_description">Компанія <span class="bold_font">SteelTech</span> робить навіси, козирки, поручні та безліч інших виробів з металу на замовлення! 
+                                </p>
+                            <strong class="article_description">Замовити металоконструкції, освітлення, дзеркала та безліч інших виробів ви можете у нас!</strong>
+                            <ul class="article_list">
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_1.jpg" alt="Навіс для будинку">
+                                </li>
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_2.jpg" alt="Навіс для будинку">
+                                </li>
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_3.jpg" alt="Навіс для будинку">
+                                </li>
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_4.jpg" alt="Навіс для будинку">
+                                </li>
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_7.jpg" alt="Навіс для будинку">
+                                </li>
+                                <li class="article_item">
+                                    <img class="article_img" src="./image/Portfilio/Awning/awning_8.jpg" alt="Навіс для будинку">
+                                </li>
+                        </ul>
+                        </article>
+                </div>
+        </section>
+
+    </main>
+
+     <!-- футер -->
+     <footer class="section-black footer">
+        <div class="container flex">
+        <div class="left-part_footer">
+            <form action="" class="modal-form_footer">
+                <label for="" class="form-main-text_footer">
+                    Зворотній зв'язок</label>
+                <label class="modal-form-field_footer">
+                    <input type="text" name="user-name" class="modal-form-input-field_footer" 
+                    placeholder="Ім'я*">
+                </label>
+                <label class="modal-form-field">
+                    <input type="tel" name="user-phone" class="modal-form-input-field_footer" 
+                    placeholder="Телефон*">
+                </label>                    
+                <label for="" class="modal-form-field_footer">
+                    <textarea class="user-message_footer" name="user-message" 
+                    placeholder="Коментар"></textarea>
+                </label>
+                <button type="submit" class="modal-form-btn_footer">Надіслати</button>
+            </form>
+        </div>
+        
+        <div class="right-part_footer">
+            <ul class="social-network footer">
+                <li class="social-network items">
+                    <a class="fb" href="https://www.facebook.com/steeltech.designstudio/"  target="_blank" aria-label="facebook-link">
+                        <svg class="fb footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#facebook_white"></use>
+                             </svg>
+                    </a>
+                </li>
+                <li class="social-network items">
+                    <a class="insta" href="https://www.instagram.com/steeltech.designstudio/"  target="_blank" aria-label="instegram-link">
+                        <svg class="insta footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#insta_white"></use>
+                             </svg>  
+                    </a>
+                </li>
+                <li class="social-network items">
+                    <a class="telega" href="https://t.me/Steeltechnologies"  target="_blank" aria-label="telegram-link">
+                        <svg class="telega footer" width="48px" height="48px">
+                            <use href="./image/sprite.svg#telega_white"></use>
+                             </svg> 
+                    </a>
+                    </li>
+             </ul>
+        
+            <address>
+                <ul class="contacts-link-set">
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Телефон:</span> <a class="contacts-link" href="tel:+380962882100" target="_blank"> +38 (096) 288-21-00</a>
+                    </li>
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Email:</span> <a class="contacts-link" href="mailto:steeltech.ds@gmail.com" target="_blank"> steeltech.ds@gmail.com</a>
+                    </li>
+                    <li class="contacts-link-item">
+                        <span class="contacts-link-type">Адреса виробництва:<a class="contacts-link" href="https://goo.gl/maps/rK6BqTWxukULVyYCA" target="_blank">  м. Київ, вул. Дубровицька, 28</a></span>
+                    </li>
+                    <li class="contacts-link-item">
+                        <p class="contacts-link-type">Графік роботи</p>
+                        <p class="contacts-link-type">Пн-Пт: 9:00-20:00</p>
+                        <p class="contacts-link-type">Сб-Нд: 10:00-17:00</p>
+                    </li>
+               </ul>
+            </address>
+        </div>    
+            <div class="under_menu">
+                <svg class="connect">
+                    <use class="connect_icon" href="./image/sprite.svg#message"></use>
+                </svg>
+                <ul class="menu_massengers">
+                    <li class="massengers_items">
+                        <a href="tel:+380962882100">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#phone_blue"></use>
+                            </svg>
+                        </a>   
+                    </li>
+                    <li class="massengers_items">
+                        <a href="mailto:steeltech.ds@gmail.com">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#message_blue"></use>
+                            </svg>
+                        </a> 
+                    </li>
+                    <li class="massengers_items">
+                        <a href="https://t.me/Steeltechnologies" target="_blank">
+                            <svg width="50px" height="50px">
+                                <use href="./image/sprite.svg#telega_blue"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        </footer>
+        <!-- <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="close-btn" data-modal-close> X </button>
+                <form action="" class="modal-form">
+                <label for="" class="form-main-text">
+                    Зворотній зв'язок</label>
+                <label for="" class="form-description-text">
+                    Залиште свої контакті данні і наш менеджер зв'яжеться з вами у найближчий час.</label>
+                <label class="modal-form-field">
+                    Email
+                    <input type="email" name="user-email" class="modal-form-input-field" placeholder="Ваш email">
+                </label>
+                <label class="modal-form-field">
+                    Ім'я
+                    <input type="text" name="user-name" class="modal-form-input-field" placeholder="Ваше Ім'я">
+                </label>
+                <label class="modal-form-field">
+                    Телефон
+                    <input type="tel" name="user-phone" class="modal-form-input-field" placeholder="Ваш телефон">
+                </label>                    
+                <label for="" class="modal-form-field">
+                    Коментар
+                    <textarea class="user-message" name="user-message" placeholder="Опишіть коротко своє замовлення, або ваше питання"></textarea>
+                </label>
+                <button type="submit" class="modal-form-btn">Надіслати</button>
+                <label for="" class="form-policy-text">Натискаючи кнопку "надіслати" Ви надаєте дозвіл на обробку своїх персональних даних.</label>
+            </form>
+            </div>
+        </div> -->
+        <script src="./js/modal.js"></script>
+        <script src="./js/menu.js"></script>
+</body>
+</html>

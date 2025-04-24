@@ -4,15 +4,25 @@ header{
     position: absolute;
     width: 100%;
     align-items: center;
+
+    @media screen and (max-width:767px){
+        position: fixed;
+        background-color: $primary-fone-color;
+        opacity: 0.8;
+        z-index: 3;
+    }
 }
+
 
 
 
 .section-header{
     color: $primary-white-color;
     margin: 0px;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    @media screen and (max-width:767px){
+        padding-bottom: 5px;
+    }
 }
 
 
@@ -38,7 +48,7 @@ header{
 .logo{
     font-size: 24px;
     font-weight: 700;
-    margin-right: 100px;
+
 
     @media screen and (max-width:767px){
         display: inline-block;
@@ -52,13 +62,20 @@ header{
     font-weight: 500;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    margin-right: 50px;
+    margin-right: 30px;
     &:hover, 
     &:focus {
         color: $accent-text-color;   
         text-decoration: underline;  
     }
 }
+
+@media screen and (max-width:767px){
+.logo_fixed{
+    margin-left: 10px;
+}
+}
+
 
 
 .insta,
@@ -118,6 +135,9 @@ header{
 /* =====================min-width:768px======================== */
 
 @media screen and (min-width:768px){
+    .logo_fixed{
+        display: none;
+    }
     .insta,
     .telega {
     margin-left: 15px;
@@ -128,13 +148,15 @@ header{
     background-color: $primary-fone-color;
     color: $primary-white-color;
     margin: 0px;
-    padding: 10px;
+ 
 
     & .insta,
     & .telega,
     & .fb {
         fill: #fff;
     }
+
+
 }
 
 .insta,
@@ -159,6 +181,9 @@ header{
 /* =====================min-width:1024px======================== */
 
 @media screen and (min-width:1024px){
+    .logo_fixed{
+        display: none;
+    }
 
 .submenu{
     position: absolute;
@@ -179,11 +204,11 @@ header{
 
 
 .site-nav{
-    margin-right: 250px;
+    margin-right: 230px;
 }
 
 .logo{
-    margin-right: 90px;   
+    margin-right: 80px;   
 }
 
 .menu_link{

@@ -2,7 +2,7 @@
 
 /* =====================ПОРТФОЛІО======================== */
 .section-portfolio{
-    padding-top: 40px;
+    padding-top: 50px;
     @media screen and (min-width:768px){
         padding-top: 60px;
     }
@@ -77,13 +77,18 @@ transform: translateX(0);
 
 }
 
+.portfolio-price{
+    font-size: 16px;
+    text-align: center;
+}
+
 
 .title.portfolio {  
     color: $primary-white-color;
     position: absolute;
     top: 10px;
     left: 33%;
-
+    z-index: 4;
 }
 
 
@@ -125,7 +130,7 @@ transform: translateX(0);
     .portfolio_card_show{
         width: 370px;
         height: auto;
-        flex-basis: calc((100% - 120px) / 3);
+        flex-basis: calc((100% - 80px) / 2);
         margin: 20px;
         padding: 15px;
     }

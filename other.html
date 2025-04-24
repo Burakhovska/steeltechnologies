@@ -9,42 +9,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="icon" href="./image/logo-squere_forGOOGLE.jpg">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- хедер -->
     <header class="header-portfolio">
         <nav class="container flex">
-            <button 
-           type="button" 
-           class="menu-button" 
-           aria-expanded="false"
-           aria-controls="menu-container"
-           data-menu-button
-           >
-               <svg 
-               width="30px" 
-               height="30px"
-               aria-label="Перемикач мобільного меню"
-               >
-                   <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
-                   <use class="icon-cross" href="./image/sprite.svg#X"></use>   
-               </svg>
-           </button> 
-           <div class="menu-container" id="menu-container" data-menu>
-               <a href="./index.html" lang="en" class="logo"> Steel Tech </a> 
+            <a href="./index.html">
+                <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo_fixed" width="110px">
+            </a>
+             <button 
+            type="button" 
+            class="menu-button" 
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+            >
+                <svg 
+                width="30px" 
+                height="30px"
+                aria-label="Перемикач мобільного меню"
+                >
+                    <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
+                    <use class="icon-cross" href="./image/sprite.svg#X"></use>   
+                </svg>
+            </button> 
+            <div class="menu-container" id="menu-container" data-menu>
+                    <a href="./index.html">
+                    <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo" width="155px">
+                </a>
             <ul  class="site-nav">
-               <li class="nav_menu_item">
-                <a href="./about-us.html" class="link">Про нас</a>
-                <ul class="submenu">
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./about-us.html">Про нас</a>
-                    </li>
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
-                    </li>
-                </ul>
-               </li>
                <li class="nav_menu_item">
                    <a href="./portfolio.html" class="link menu current">Портфоліо</a>
                    <ul class="submenu">
@@ -56,17 +51,46 @@
                            <a class="menu_link" href="./rack.html">Стелажі та шафи</a></li>
                        <li class="submenu_item">
                            <a class="menu_link" href="./light.html">Освітлення</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./mirrors.html">Дзеркала</a></li>
                        <li class="submenu_item">
                            <a class="menu_link" href="./kitchen.html">Кухня</a></li>
                        <li class="submenu_item">
                            <a class="menu_link" href="./badroom.html">Спальня та вітальня</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./awnings.html">Навіси, поручні</a></li>
                        <li class="submenu_item">
                            <a class="menu_link current" href="./other.html">Інше</a></li>
                    </ul>
                </li>
                <li class="nav_menu_item">
-                   <a href="./contacts.html" class="link">Контакти</a>
+                <a href="./services.html" class="link">Послуги</a>
+                <ul class="submenu">
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_lazer.html">Лазерне різання</a>
+                    </li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_metal-bending.html">Гнуття металу</a>
+                    </li>
+                </ul>
                </li>
+               <li class="nav_menu_item">
+                <a class="link" href="./articles.html">Статті</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./contacts.html" class="link">Контакти</a>
+                <ul class="submenu">
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./about-us.html">Про нас</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./contacts.html">Контакти</a>
+                 </li>
+             </ul>
+            </li>
             </ul>
             <div class="mobile-menu_contact">
                <p class="text_contact_mobile">Зв’яжіться з нами!</p>
@@ -107,6 +131,60 @@
             <div class="container portfolio">
                 <h1 class="title portfolio">Портфоліо</h1>
                 <ul class="portfolio set">
+                     
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Підставка під миски для собак. індивідуальне замовлення.</p>
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/Інше/dog_bowl_stand.jpg 1x, ./image/Portfilio/Інше/dog_bowl_stand@2x.jpg 2x">
+                            <img src="./image/Portfilio/Інше/dog_bowl_stand.jpg" alt="підставка-під-квіти3">
+                        </picture> 
+                          
+                         <h2>Підставка під миски для собак</h2>
+                         <p class="portfolio-price">Ціна: від 1 000 грн</p>
+                     </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
+                                Можуть мати будь-які параметри, в залежності від ваших побажань.</p>
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/Інше/flower_stand.jpg 1x, ./image/Portfilio/Інше/flower_stand@2x.jpg 2x">
+                            <img src="./image/Portfilio/Інше/flower_stand.jpg" alt="підставка-під-квіти3">
+                        </picture> 
+                          
+                         <h2>Металеві кашпо</h2>
+                         <p class="portfolio-price">Ціна: від 3 000 грн</p>
+                     </li>
+                     
+
+                     <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
+                                Можуть мати будь-які параметри, в залежності від ваших побажань. 
+                            Також додатково можемо зробити звукоїзоляцію.</p>
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/Інше/box_for_generator.jpg 1x, ./image/Portfilio/Інше/box_for_generator@2x.jpg 2x">
+                            <img src="./image/Portfilio/Інше/box_for_generator.jpg" alt="бокс для генератору">
+                        </picture> 
+                         <h2>Короб для генератора</h2>
+                         <p class="portfolio-price">Ціна: від 4 000 грн</p>
+                     </li> 
+                     <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
+                                Можуть мати будь-які параметри, в залежності від ваших побажань</p>
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/Інше/flower_stand2.jpg 1x, ./image/Portfilio/Інше/flower_stand2@2x.jpg 2x">
+                            <img src="./image/Portfilio/Інше/flower_stand2.jpg" alt="підставка-під-квіти">
+                        </picture> 
+                         
+                         <h2>Металеве кашпо</h2>
+                         <p class="portfolio-price">Ціна: від 3 000 грн</p>
+                     </li>   
                      <li class="portfolio card">
                         <div class="portfolio_backdrop">
                             <p>Матеріали:
@@ -148,62 +226,16 @@
                         
                         <h2>Тумба для ванної кімнати</h2>
                     </li>
-                    <li class="portfolio card">
-                        <div class="portfolio_backdrop">
-                            <p>Підставка під миски для собак. індивідуальне замовлення.</p>
-                        </div>
-                        <picture class="portfolio_list-picture">
-                            <source srcset="./image/Portfilio/Інше/dog_bowl_stand.jpg 1x, ./image/Portfilio/Інше/dog_bowl_stand@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/dog_bowl_stand.jpg" alt="підставка-під-квіти3">
-                        </picture> 
-                          
-                         <h2>Підставка під миски для собак</h2>
-                     </li>
-                    <li class="portfolio card">
-                        <div class="portfolio_backdrop">
-                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
-                                Можуть мати будь-які параметри, в залежності від ваших побажань.</p>
-                        </div>
-                        <picture class="portfolio_list-picture">
-                            <source srcset="./image/Portfilio/Інше/flower_stand.jpg 1x, ./image/Portfilio/Інше/flower_stand@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/flower_stand.jpg" alt="підставка-під-квіти3">
-                        </picture> 
-                          
-                         <h2>Металеві кашпо</h2>
-                     </li>
-                     <li class="portfolio card">
-                        <div class="portfolio_backdrop">
-                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
-                                Можуть мати будь-які параметри, в залежності від ваших побажань</p>
-                        </div>
-                        <picture class="portfolio_list-picture">
-                            <source srcset="./image/Portfilio/Інше/flower_stand2.jpg 1x, ./image/Portfilio/Інше/flower_stand2@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/flower_stand2.jpg" alt="підставка-під-квіти">
-                        </picture> 
-                         
-                         <h2>Металеве кашпо</h2>
-                     </li>   
-
-                     <li class="portfolio card">
-                        <div class="portfolio_backdrop">
-                            <p>Виготовлено з застосуванням лазерної порізки та порошковим фарбуванням.
-                                Можуть мати будь-які параметри, в залежності від ваших побажань</p>
-                        </div>
-                        <picture class="portfolio_list-picture">
-                            <source srcset="./image/Portfilio/Інше/flower_stand3.jpg 1x, ./image/Portfilio/Інше/flower_stand3@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/flower_stand3.jpg" alt="підставка-під-квіти">
-                        </picture> 
-                         <h2>Металеве кашпо</h2>
-                     </li> 
                      <li class="portfolio card">
                         <div class="portfolio_backdrop">
                             <p>Вішалка настінна в виляді ромбів. Параматри: 920мм/500мм/100мм. Матеріали: метал. Колір: чорний, порошкове фарбування. Вартість: 2000грн.</p>
                         </div>
                         <picture class="portfolio_list-picture">
                             <source srcset="./image/Portfilio/Інше/hanger_rhombuses.jpg 1x, ./image/Portfilio/Інше/hanger_rhombuses@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/hanger_rhombuses.jpg" alt="тумба-в-ванную" width="370">
+                            <img src="./image/Portfilio/Інше/hanger_rhombuses.jpg" alt="вішалка" width="370">
                         </picture> 
                          <h2>Вішалка "Ромби"</h2>
+                         <p class="portfolio-price">Ціна: від 2 000 грн</p>
                      </li>
                      <li class="portfolio card">
                         <div class="portfolio_backdrop">
@@ -211,9 +243,10 @@
                         </div>
                         <picture class="portfolio_list-picture">
                             <source srcset="./image/Portfilio/Інше/honeycomb_hanger.jpg 1x, ./image/Portfilio/Інше/honeycomb_hanger@2x.jpg 2x">
-                            <img src="./image/Portfilio/Інше/honeycomb_hanger.jpg" alt="тумба-в-ванную" width="370">
+                            <img src="./image/Portfilio/Інше/honeycomb_hanger.jpg" alt="вішалка" width="370">
                         </picture> 
-                         <h2>Вішалка "Ромби"</h2>
+                         <h2>Вішалка "Соти"</h2>
+                         <p class="portfolio-price">Ціна: від 3 000 грн</p>
                      </li>
                  </ul>
                  </div>

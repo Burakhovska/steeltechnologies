@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SteelTech</title>
-    <link rel="stylesheet" href="./fonts/fonts.css">
+    <title>SteelTech. Меблі з металу та освітлення на замовлення. </title>
+    <meta name="description" content="Вироби з металу по ескізу. Меблі лофт під замовлення. Лазерна порізка. Порошкове покриття. Вироби з нітрид титаном. Доступні ціни. Контакти: +380962882100.">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="icon" href="./image/logo-squere_forGOOGLE.jpg">
     <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
@@ -15,6 +16,9 @@
     <!-- хедер -->
     <header class="section-header">
         <nav class="container flex">
+            <a href="./index.html">
+            <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo_fixed" width="110px">
+        </a>
          <button 
         type="button" 
         class="menu-button" 
@@ -32,19 +36,10 @@
             </svg>
         </button> 
         <div class="menu-container" id="menu-container" data-menu>
-            <a href="./index.html" lang="en" class="logo current"> Steel Tech </a> 
+                <a href="./index.html">
+                <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo current" width="155px">
+            </a>
          <ul class="site-nav">
-            <li class="nav_menu_item">
-                <a href="./about-us.html" class="link">Про нас</a>
-                <ul class="submenu">
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./about-us.html">Про нас</a>
-                    </li>
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
-                    </li>
-                </ul>
-            </li>
             <li class="nav_menu_item">
                 <a href="./portfolio.html" class="link menu">Портфоліо</a>
                 <ul class="submenu">
@@ -57,6 +52,10 @@
                     <li class="submenu_item">
                         <a class="menu_link" href="./light.html">Освітлення</a></li>
                     <li class="submenu_item">
+                        <a class="menu_link" href="./mirrors.html">Дзеркала</a></li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./awnings.html">Навіси, поручні</a></li>
+                    <li class="submenu_item">
                         <a class="menu_link" href="./kitchen.html">Кухня</a></li>
                     <li class="submenu_item">
                         <a class="menu_link" href="./badroom.html">Спальня та вітальня</a></li>
@@ -65,7 +64,32 @@
                 </ul>
             </li>
             <li class="nav_menu_item">
+                <a href="./services.html" class="link">Послуги</a>
+                <ul class="submenu">
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_lazer.html">Лазерне різання</a>
+                    </li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_metal-bending.html">Гнуття металу</a>
+                    </li>
+                </ul>
+               </li>
+            <li class="nav_menu_item">
+                <a class="link" href="./articles.html">Статті</a>
+            </li>
+            <li class="nav_menu_item">
                 <a href="./contacts.html" class="link">Контакти</a>
+                <ul class="submenu">
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./about-us.html">Про нас</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./contacts.html">Контакти</a>
+                 </li>
+             </ul>
             </li>
          </ul>
          <div class="mobile-menu_contact">
@@ -106,13 +130,13 @@
             <div class="container hero">
                 <div class="box-hero">
                     <div class="box-title-hero">
-                        <h1 class="title-hero">Ексклюзивні <span class="title-flex">меблі 
-                        <span class="title-text">та предмети інтер'єру на замовлення</span></span></h1>                    
+                        <h1 class="title-hero">Вироби з металу, <span class="title-flex">освітлення
+                        <span class="title-text">на замовлення</span></span></h1>                    
                     </div>
-                    <p class="under-title">Ми постійно вдосконалюємось, стежимо за останніми тенденціями дизайну. Наше головне завдання — створювати комфортні, якісні та екологічно чисті меблі.
+                    <p class="under-title">Ми виготовимо будь-які предмети інтер'єру та екстер'єру, враховуючи ваші побажання. Наше головне завдання — створювати якісні вироби в обумовлені сроки.
                     </p>
                     <!--Кнопка "про нас"-->
-                    <a href="#benefits" class="button primary">Детальніше</a>
+                    <a href="#benefits" class="button primary mobile-none">Детальніше</a>
                     <a href="./contacts.html" class="button"> Зв'язатись з нами </a>
                     <!-- <button type="button" class="button" data-modal-open> Зв'язатись з нами </button> -->
                 </div>  
@@ -141,12 +165,56 @@
                         </p>
                     </li>            
                 </ul>
-                <button class="button-contact">Зв’язатися з нами &#x2192; </button>
+                <a href="./contacts.html" class="button-contact"> Зв’язатися з нами &#x2192; </a>
             </div>
-                <img class="img-benefits" src="./image/Table1.png" width="600" alt="стіл1">
+                <img class="img-benefits" src="./image/Portfilio/coffee_table5@2x.jpg" width="600" alt="стіл1">
             
             </div>        
          </section>
+         <section class="section-white">
+            <div class="container flex"> 
+                <img class="img-benefits img-benefits_max" src="./image/benefits_lamp.jpg" width="500" alt="світильники в ресторані">
+               <div class="container-benefits">
+                <h2 class="title-benefits" id="benefits">
+                    Створюємо елементи освітлення будь-якої складності</h2>
+                <ul>
+                    <li>
+                        <h3 class="benefits-description-title">Сучасні технології</h3>
+                        <p class="benefits-description">Використовуємо сучасне високоточне обладнання та відслідковуємо нові технології в виробництві.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-description-title">Незвичайний дизайн</h3>
+                        <p class="benefits-description">Бажаєте нестандартне освітлення за індивідуальним дизайном? Ми втілимо в реальність ваш найсміливіший задум!
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="benefits-description-title">Індивідуальний підхід</h3>
+                        <p class="benefits-description">Виготовляємо елементи освітлення будь-якої складності. 
+                        </p>
+                    </li>            
+                </ul>
+                <img class="img-benefits img-benefits_min" src="./image/benefits_lamp.jpg" width="500" alt="світильники в ресторані">
+                <a href="./contacts.html" class="button-contact"> Зв’язатися з нами &#x2192; </a>
+            </div> 
+        </div>   
+         </section>
+
+         <!--корпоративні замовлення-->
+         <section class="section-grey corporative-section">
+            <div class="container flex"> 
+                <img class="img-corporative" src="./image/корп.замовлення1.png" alt="робітник" width="220">
+                <img class="img-corporative" src="./image/корп.замовлення2.png" alt="офіс" width="220">
+                <div class="box-corporative">
+                    <h2 class="title corporative">Корпоративні замовлення</h2>
+                    <p class="description corporative">Виробницво <span class="bold_font">Steel Tech</span> дозволяє випускати продукти в великій кількості. Ми пропонуємо масове виробництво, на замовлення, будь-якої складності. Також надаємо послуги: лазерного різання, порошкового фарбування, згинання, перфорації.
+                    </p>
+                    
+                <!-- <button type="button" class="button primary corporate_button" data-modal-open>Зв’язатися з нами</button> -->
+                <a href="./corporate_orders.html"class="button primary corporate_button">Детальніше</a>
+                </div>
+            </div>
+        </section>
          <!-- бревно -->
          <section class="section-white">
             <div class="container wood"> 
@@ -159,23 +227,8 @@
                 <img class="wood_img" src="./image/wood-round-slice-iso.jpg" alt="бревно" width="700">
             </div>
         </section>
-         <!--корпоративні замовлення-->
-         <section class="section-grey corporative-section">
-            <div class="container flex"> 
-                <img class="img-corporative" src="./image/корп.замовлення1.png" alt="робітник" width="220">
-                <img class="img-corporative" src="./image/корп.замовлення2.png" alt="офіс" width="220">
-                <div class="box-corporative">
-                    <h2 class="title corporative">Копроративні замовлення</h2>
-                    <p class="description corporative">Виробницво <span class="bold_font">Steel Tech</span> дозволяє випускати продукти великим тиражем. Ми пропонуємо масове виробництво, на замовлення, будь-якої складності. Також надаємо послуги: лазерного різання, порошкового фарбування, згинання, перфорації.
-                    </p>
-                    
-                <!-- <button type="button" class="button primary corporate_button" data-modal-open>Зв’язатися з нами</button> -->
-                <a href="./corporate_orders.html"class="button primary corporate_button">Детальніше</a>
-                </div>
-            </div>
-        </section>
          <!--Наша команда-->
-         <section class="section-black team-container">
+         <!-- <section class="section-black team-container">
             <div class="container"> 
             <h2 class="team title">Наша команда</h2>
             <ul class="team-ul">
@@ -254,7 +307,7 @@
                 </li>
             </ul>
         </div>
-         </section>
+         </section> -->
          <!-- reviews -->
          <section class="section-grey">
             <div class="container">
@@ -420,22 +473,7 @@
             </form>
             </div>
         </div> -->
-        <script src="./js/modal.js"></script>
+        <!-- <script src="./js/modal.js"></script> -->
         <script src="./js/menu.js"></script>
-        <script>
-            (() => {
-              document
-                .querySelector('.js-speaker-form')
-                .addEventListener('submit', e => {
-                  e.preventDefault();
-      
-                  new FormData(e.currentTarget).forEach((value, name) =>
-                    console.log(`${name}: ${value}`),
-                  );
-      
-                  e.currentTarget.reset();
-                });
-            })();
-          </script>
 </body>
 </html>

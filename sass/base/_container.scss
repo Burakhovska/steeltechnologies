@@ -53,6 +53,7 @@
 
 @media screen and (min-width:1024px){
     width: 1024px;
+
 }
 
 }
@@ -61,12 +62,15 @@
 
     min-width: 320px;
 
+
     @media screen and (min-width:480px){
         min-width: 480px;
     }
 
     @media screen and (min-width:1024px){
         width: 480px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 

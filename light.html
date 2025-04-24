@@ -9,42 +9,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="icon" href="./image/logo-squere_forGOOGLE.jpg">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- хедер -->
     <header class="header-portfolio">
         <nav class="container flex">
-            <button 
-           type="button" 
-           class="menu-button" 
-           aria-expanded="false"
-           aria-controls="menu-container"
-           data-menu-button
-           >
-               <svg 
-               width="30px" 
-               height="30px"
-               aria-label="Перемикач мобільного меню"
-               >
-                   <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
-                   <use class="icon-cross" href="./image/sprite.svg#X"></use>   
-               </svg>
-           </button> 
-           <div class="menu-container" id="menu-container" data-menu>
-               <a href="./index.html" lang="en" class="logo"> Steel Tech </a> 
+            <a href="./index.html">
+                <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo_fixed" width="110px">
+            </a>
+             <button 
+            type="button" 
+            class="menu-button" 
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+            >
+                <svg 
+                width="30px" 
+                height="30px"
+                aria-label="Перемикач мобільного меню"
+                >
+                    <use class="icon-menu" href="./image/sprite.svg#menu-burger"></use>
+                    <use class="icon-cross" href="./image/sprite.svg#X"></use>   
+                </svg>
+            </button> 
+            <div class="menu-container" id="menu-container" data-menu>
+                    <a href="./index.html">
+                    <img src="./image/logo_icon-white_text2.png" alt="logo" class="logo" width="155px">
+                </a>
             <ul  class="site-nav">
-               <li class="nav_menu_item">
-                <a href="./about-us.html" class="link">Про нас</a>
-                <ul class="submenu">
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./about-us.html">Про нас</a>
-                    </li>
-                    <li class="submenu_item">
-                        <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
-                    </li>
-                </ul>
-               </li>
                <li class="nav_menu_item">
                    <a href="./portfolio.html" class="link menu current">Портфоліо</a>
                    <ul class="submenu">
@@ -56,6 +51,10 @@
                            <a class="menu_link" href="./rack.html">Стелажі та шафи</a></li>
                        <li class="submenu_item">
                            <a class="menu_link current" href="./light.html">Освітлення</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./mirrors.html">Дзеркала</a></li>
+                        <li class="submenu_item">
+                            <a class="menu_link" href="./awnings.html">Навіси, поручні</a></li>
                        <li class="submenu_item">
                            <a class="menu_link" href="./kitchen.html">Кухня</a></li>
                        <li class="submenu_item">
@@ -65,8 +64,33 @@
                    </ul>
                </li>
                <li class="nav_menu_item">
-                   <a href="./contacts.html" class="link">Контакти</a>
+                <a href="./services.html" class="link">Послуги</a>
+                <ul class="submenu">
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_lazer.html">Лазерне різання</a>
+                    </li>
+                    <li class="submenu_item">
+                        <a class="menu_link" href="./service_metal-bending.html">Гнуття металу</a>
+                    </li>
+                </ul>
                </li>
+               <li class="nav_menu_item">
+                <a class="link" href="./articles.html">Статті</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./contacts.html" class="link">Контакти</a>
+                <ul class="submenu">
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./about-us.html">Про нас</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./corporate_orders.html">Корпоративні замовлення</a>
+                 </li>
+                 <li class="submenu_item">
+                     <a class="menu_link" href="./contacts.html">Контакти</a>
+                 </li>
+             </ul>
+            </li>
             </ul>
             <div class="mobile-menu_contact">
                <p class="text_contact_mobile">Зв’яжіться з нами!</p>
@@ -138,33 +162,118 @@
                           <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                         <div class="detail-container">
-                            <h2 class="portfolio-description">Світильники для ресторану HoReCa</h2>
+                            <h2 class="portfolio-description">Світильник для ресторану</h2>
+                            <p class="portfolio-price">Ціна за шт: від 15 000 грн.</p>
                             <div class="portfolio_backdrop">
-                                <p>Унікальний підвісний світильник виконаний під індивідуальне замовлення для HoReCa. Завдяки світододам має якісне освітлення, з можливістю регулювання яскравості.</p>
+                                <p>Унікальний підвісний світильник виконаний під індивідуальне замовлення для HoReCa. Завдяки світододам має якісне освітлення, з можливістю регулювання яскравості(блоком та димером).</p>
+                                
                             </div>
                         </div>                        
+                    </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Стильний світильник, ідеально підійде для літньої тераси, віранди заміського будинку, ресторану або доповнить дизайнерський інтер'єр.</p>
+                            <p>Виготовлений з ЕКО матеріалу - натуральний канат, що виготовлений з рослин. Виключно ручна робота!</p>
+                            
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <source srcset="./image/Portfilio/Освітлення/lamp8.jpg 1x, ./image/Portfilio/Освітлення/lamp8@2x.jpg 2x">
+                            <img src="./image/Portfilio/Освітлення/lamp8.jpg" alt="Світильник" width="370">
+                        </picture> 
+                        
+                        <h2>Джгутовий світильник ручної роботи.</h2>
+                        <p class="portfolio-price">Ціна: від 6 500 грн</p>
+                    </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Стильний світильник, ідеально підійде для літньої тераси, віранди заміського будинку, ресторану або доповнить дизайнерський інтер'єр.</p>
+                            <p><p>Виготовлений з ЕКО матеріалу - натуральний канат, що виготовлений з рослин. Виключно ручна робота!</p></p>
+                            
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <!-- <source srcset="./image/Portfilio/Освітлення/lamp8.jpg 1x, ./image/Portfilio/Освітлення/lamp8@2x.jpg 2x"> -->
+                            <img src="./image/Portfilio/Освітлення/lamp11.jpg" alt="Світильник" width="370">
+                        </picture> 
+                        
+                        <h2>Джгутовий світильник ручної роботи.</h2>
+                        <p class="portfolio-price">Ціна: від 5 500 грн</p>
+                    </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Стильний світильник, ідеально підійде для літньої тераси, віранди заміського будинку, ресторану або доповнить дизайнерський інтер'єр.</p>
+                            <p>Виготовлений з ЕКО матеріалу - натуральний канат, що виготовлений з рослин. Виключно ручна робота!</p>
+                            
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <!-- <source srcset="./image/Portfilio/Освітлення/lamp8.jpg 1x, ./image/Portfilio/Освітлення/lamp8@2x.jpg 2x"> -->
+                            <img src="./image/Portfilio/Освітлення/lamp12.jpg" alt="Світильник" width="370">
+                        </picture> 
+                        
+                        <h2>Джгутовий світильник ручної роботи.</h2>
+                        <p class="portfolio-price">Ціна: від 5 500 грн</p>
+                    </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Стильний світильник, ідеально підійде для літньої тераси, віранди заміського будинку, ресторану або доповнить дизайнерський інтер'єр.</p>
+                            <p>Виготовлений з ЕКО матеріалів. Виключно ручна робота!</p>
+                            
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <!-- <source srcset="./image/Portfilio/Освітлення/lamp8.jpg 1x, ./image/Portfilio/Освітлення/lamp8@2x.jpg 2x"> -->
+                            <img src="./image/Portfilio/Освітлення/lamp9.jpg" alt="Світильник" width="370">
+                        </picture> 
+                        
+                        <h2>Джгутовий світильник ручної роботи.</h2>
+                        <p class="portfolio-price">Ціна: від 5 500 грн</p>
+                    </li>
+                    <li class="portfolio card">
+                        <div class="portfolio_backdrop">
+                            <p>Підвісний лінійний світильник високої якості в строгому, сучасному дизайні з матовим розсіювачем. </p>
+
+                               <p>✔️ Рівномірно розподіляє світловий потік і створює комфортне, м'яке світло.</p> 
+                                <p>✔️ Період ефективної експлуатації світильника 10 років.</p>
+                                <p>✔️  Можливість експлуатації 24/7</p>
+                                <p>✔️  Світлодіоди OSRAM (Німеччина) - термін служби 100 тис. годин</p>
+                                <p>✔️  Алюмінієва плата - добре відводить тепло від світлодіодів, не перегрівається (перегрів призводить до зменшення терміну служби в 10-100 разів)</p>
+                                <p>✔️  Високопродуктивні блоки живлення (ККД 94%) - економлять електроенергію.</p>
+                                <p>✔️  Витримують скачки до 320 вольт, тривалістю до 1 години</p>
+                                <p>✔️  Сатиновий розсіювач не вигоряє, не жовтіє, не кришиться і не тріскається в період експлуатації</p>
+                                <p>✔️  Гарантія від виробника</p>
+
+                        </div>
+                        <picture class="portfolio_list-picture">
+                            <!-- <source srcset="./image/Portfilio/Освітлення/lamp8.jpg 1x, ./image/Portfilio/Освітлення/lamp8@2x.jpg 2x"> -->
+                            <img src="./image/Portfilio/Освітлення/lamp10.jpg" alt="Світильник" width="370">
+                        </picture> 
+                        
+                        <h2>Підвісний лінійний світильник BETA LIGHT Line 120Вт</h2>
+                        <p class="portfolio-price">Ціна: від 5 500 грн</p>
                     </li>
             <li class="portfolio card">
                 <div class="portfolio_backdrop">
                     <p>Такі прості і в той же час стильні світильники ідеально підійдуть для кав'ярень та ресторанів.</p>
+                    <p>Матеріали: метал з порошковим фарбуванням.</p>
                 </div>
                 <picture class="portfolio_list-picture">
                     <source srcset="./image/Portfilio/Освітлення/lamp6.jpg 1x, ./image/Portfilio/Освітлення/lamp6@2x.jpg 2x">
                     <img src="./image/Portfilio/Освітлення/lamp6.jpg" alt="Світильник" width="370">
                 </picture> 
                 
-                <h2>Світильники для ресторану</h2>
+                <h2>Світильник для ресторану</h2>
+                <p class="portfolio-price">Ціна: від 5 000 грн</p>
             </li>
             <li class="portfolio card">
                 <div class="portfolio_backdrop">
-                    <p>Світодіодне освітлення для великих просторів.</p>
+                    <p>Світодіодне освітлення для великих просторів. Світильники вмонтовані в формі сот, але є можливість зробити освітлення різними формами.</p>
+                    <p>Розміри можуть бути різними, в залежності від ваших потреб та побажань!</p>
                 </div>
                 <picture class="portfolio_list-picture">
                     <source srcset="./image/Portfilio/Освітлення/lamp7.jpg 1x, ./image/Portfilio/Освітлення/lamp7@2x.jpg 2x">
                     <img src="./image/Portfilio/Освітлення/lamp7.jpg" alt="Світильник" width="370">
                 </picture> 
                 
-                <h2>Світодіодні світильники в вигляді сот</h2>
+                <h2>Світодіодні світильники в формі сот</h2>
+                <p class="portfolio-price">Ціна: від 15 000 грн</p>
             </li>
         </ul>
         </div>
